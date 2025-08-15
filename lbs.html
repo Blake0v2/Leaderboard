@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arch Angels Dashboard</title>
+    <link rel="stylesheet" href="lbs.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="bot-icon">
+                <img src="https://i.postimg.cc/Pr31Rx40/Here-is-a-non-realistic-profile-picture-in-a-gold-white-and-blue-theme-inspired-by-an-Archangel.png" alt="Bot Icon">
+            </div>
+            <ul class="menu">
+                <li><button class="menu-btn" onclick="window.location.href='https://blake0v2.github.io/CelestialBeingDashboard/dashboard.html'">Dashboard</button></li>
+                <li><button class="menu-btn" onclick="window.location.href='https://blake0v2.github.io/ArchAngelCommands/commands.html'">Commands</button></li>
+                <li><button class="menu-btn" onclick="window.location.href='https://blake0v2.github.io/CurrentRaid/currentraid.html'">Current Raid</button></li>
+                <li><button class="menu-btn" onclick="showPage('leaderboard')">Leaderboard</button></li>
+                <li><button class="menu-btn" onclick="showPage('desert-carry')">Desert Carry</button></li>
+            </ul>
+            <!-- Log Out Button -->
+            <a href="#" onclick="logout()" class="logout-btn">Log Out [➔</a>
+        </div>
+        <div class="content">
+            <h2>🏆Leaderboard</h2>
+            <div class="leaderboard-category">
+                <h3>Top 10 Users 📊</h3>
+                <div class="lbs-list">
+                    <div class="lbs-item">
+                        <button class="lbs-btn" title="Check your account balance">🥇Username</button>
+                        <button class="lbs-btn" title="Check your account balance">🥈Username</button>
+                        <button class="lbs-btn" title="Check your account balance">🥉Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                        <button class="lbs-btn" title="Check your account balance">Username</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
